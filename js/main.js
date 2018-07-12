@@ -50,7 +50,7 @@ function isLetter(strValue) {
   return objRegExp.test(strValue);
 }
 function isVowel(strValue){
-	var objRegExp = /^[aeiou]$/;
+	var objRegExp = /^[aeiouAEIOU]$/;
 	return objRegExp.test(strValue);
 }
 function isSpecialSyllable(strValue){
