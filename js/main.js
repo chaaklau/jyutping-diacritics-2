@@ -28,7 +28,8 @@ function num2dia(lshk_num) {
         {
           lshk_dia =  lshk_dia.substr(0,j+1) 
           			+ diacritics[tone] 
-          			+ lshk_dia.substr(j+1);
+          			+ lshk_dia.substr(j+1)
+          			+ (isLetter(lshk_num[Math.min(i+1,lshk_num.length-1)])?".":"");
           j = -1;
         }
         else {
