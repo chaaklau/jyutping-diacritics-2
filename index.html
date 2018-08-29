@@ -35,7 +35,7 @@
   <div id='searchAreaBox' class='container'>
     <div id='searchAreaTitle' class='col-md-3'>
         <h2>Jyutping</h2>
-        <input type='button' class='btn-warning' value='Clear' onclick='$("#inputBox").val("")'>
+        <input type='button' class='btn-warning' value='Clear' onclick='document.getElementById("inputBox").value=""'>
     </div>
     <div id='searchArea' class='col-md-9'>
         <textarea id='inputBox' rows='5' class='form-control'>Type Jyutping Here, and then click the "Convert" button.
@@ -47,7 +47,7 @@ jat1cai4 hok6 Gwong2dung1waa2 laa1! (Let's learn Cantonese together!)</textarea>
   <div id='resultAreaBox' class='container'>
       <div id='resultAreaTitle' class='col-md-3'>
           <h2>Jyutping in Diacritics</h2>
-          <input type='button' class='btn-warning' value='Clear' onclick='$("#resultDiacritics").val("")'>
+          <input type='button' class='btn-warning' value='Clear' onclick='document.getElementById("resultDiacritics").value=""'>
       </div>
       <div id='resultArea' class='col-md-9'>
           <div>
@@ -60,19 +60,19 @@ jat1cai4 hok6 Gwong2dung1waa2 laa1! (Let's learn Cantonese together!)</textarea>
 
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>  
+  <!--script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script-->  
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
   <!--bootstrap CDN-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script-->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    ga('create', 'UA-44931134-3', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>

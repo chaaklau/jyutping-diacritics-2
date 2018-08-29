@@ -11,7 +11,7 @@ var diacritics =
 	];
 
 function triggerConvert() {
-  $("#resultDiacritics").val(num2dia($("#inputBox").val()))
+  document.getElementById("resultDiacritics").value = num2dia(document.getElementById("inputBox").value);
 }
 
 function num2dia(lshk_num) {
