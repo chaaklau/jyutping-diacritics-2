@@ -2,10 +2,13 @@
 
 var diacritics = 
 	['',
-	 '\u0302', //Tone 1 U+0302 Combining Circumflex Accent
+	 //'\u0302', //Tone 1 U+0302 Combining Circumflex Accent
+	 '\u0304', //Tone 1 (NEW)  U+0304 Combining Macron
 	 '\u0301', //Tone 2 U+0301 Combining Acute Accent 
-	 '\u0304', //Tone 3 U+0304 Combining Macron
-	 '\u032C', //Tone 4 U+032C Combining Caron Below
+	 //'\u0304', //Tone 3 U+0304 Combining Macron
+	 '\u034F', //Tone 3 (NEW) U+0307 Combining Grapheme Joiner
+	 //'\u032C', //Tone 4 U+032C Combining Caron Below
+	 '\u0316', //Tone 4 (NEW) U+0316 Combining Grave Accent Below
 	 '\u0317', //Tone 5 U+0317 Combining Acute Accent Below
 	 '\u0331'  //Tone 6 U+0331 Combining Macron Below
 	];
